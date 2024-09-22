@@ -1,0 +1,38 @@
+
+pkg update && pkg upgrade
+pkg install git nodejs -y
+Clone the Repository:
+
+Clone the forked repository using the following command:
+
+git clone https://github.com/Ethix-Xsid/Ethix-MD-V2.git
+Navigate to the Project Directory:
+
+Change into the project directory:
+
+cd Ethix-MD-V2
+Set the SESSION_ID in the .env File:
+
+To set the SESSION_ID, you need to create or edit the .env file in the project directory.
+
+Create/Edit the .env File:
+
+Open (or create) the .env file using a text editor like nano:
+
+nano .env
+Add the SESSION_ID Variable:Ethix-MD&R80LCXQs
+
+Add the following line to the .env file:
+
+SESSION_ID='Ethix-MD&R80LCXQs'
+Replace 'your-session-id-here' with the actual session ID you obtained.
+
+Save and Exit:
+
+If using nano, save the changes by pressing CTRL + X, then Y, and then Enter to exit.
+
+Install Node Modules:
+
+Install the required Node.js modules:
+
+npm install
